@@ -240,10 +240,6 @@ footer {
         text-align: center;
     }
     
-
-
-/*-------------------------------get in touch*/
-
 .contact-form {
     margin-left: 1%;
     margin-right: 1%;
@@ -251,60 +247,9 @@ footer {
     width: 98%;
 }
 
-/*-------------------------------team*/
-
-.teamPic {
-    border-radius: 50%;
-    border: 10px solid #d9c8ca;
-    text-align: center;
-
-}
-
-.bioName {
-    font-family: century gothic, sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    color: #808080;
-
-
-}
-
-.bioPara {
-
-    font-family: century gothic, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #808080;
-}
 
 
 
-
-.katie {
-    border: 10px solid #f9cf92;
-}
-
-.bioPic {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.bioPic:hover {
-    transform: scale(1.1);
-}
-
-
-
-/*-----------------------------------------classes*/
-
-.classesText {
-    font-family: century gothic, sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-    color: #808080;
-}
 
 
 
@@ -330,9 +275,7 @@ footer {
         margin-left: 5%
     }
 
-    .container-map {
-        display: none
-    }
+    
     .introPara{
         margin-top: 67%;
     }

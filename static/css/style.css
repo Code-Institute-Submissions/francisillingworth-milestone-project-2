@@ -97,6 +97,7 @@ btn-group-sm>.btn,
 .nav-link {
     text-align: right;
     font-weight: 800;
+    font-size: 1.2em; 
 }
 
 
@@ -247,6 +248,14 @@ footer {
     width: 98%;
 }
 
+#map{
+    height:400px;
+    width:100%;
+    border-radius: 50px;
+    border-color: blue;
+    border-width: 10px;
+    
+}
 
 
 
@@ -329,10 +338,21 @@ footer {
     }
     #home{
         margin-top: 125px;
+       
+    }
+    
+        
     }
     .introPara{
         margin-top: 70%;
     }
+    #map{
+    height:500px;
+    width:70%;
+    margin-left: 15%;
+    
+}
+
 
 }
 

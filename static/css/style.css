@@ -1,0 +1,411 @@
+/*------------------colours*/
+
+body {
+    background-color: 	#FFFAF0;
+    
+     
+}
+
+
+
+/*------------------heading*/
+
+header{
+    position:absolute;
+    width: 100%;
+    top: 0;
+}
+
+#home{
+    color:black;
+    font-size: 76px;
+    
+}
+
+#subTitle{
+    font-weight: 400;
+    color: black;
+}
+
+.titleImage{
+    z-index: -1;
+    position: absolute
+}
+
+h1 {
+    width: 100%;
+    font-family: century gothic, sans-serif;
+    font-weight: 100;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-family: century gothic, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.logo {
+    border-radius: 50%;
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titleImage{
+    opacity: 0.7;
+    z-index: -1;
+    width:100%;
+    margin-top: 0;
+}
+
+
+
+/* ------------------------------------Alert bar*/
+
+.alert {
+    padding: 3px 20px;
+    text-align: left;
+    background-color: #f9d973;
+    border-color: #f9d973;
+    margin-bottom: 0px;
+    
+}
+
+btn-group-sm>.btn,
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    margin-left: 10px;
+}
+
+.alert-container {
+    padding: 0;
+}
+
+
+/*-----------------------------------burger nav*/
+
+.nav-link {
+    text-align: right;
+    font-weight: 800;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    opacity: 0.7;
+   
+    
+}
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
+
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(http://assets.stickpng.com/thumbs/588a64e7d06f6719692a2d11.png);
+}
+
+.dropdown-item {
+    text-align: right;
+    color: #747779;
+    font-weight: 700;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.navalert-container {
+    padding: 0;
+}
+
+
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #e9e7f1;
+}
+
+
+nav.navbar-dark.navbar-expand-xl.navigation{
+     text-align: right;
+}
+
+
+
+
+/*---------------------------------------footer*/
+
+h5 {
+    margin: 0;
+    border-bottom-style: dashed;
+    border-bottom-color: white;
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.general-sub {
+    font-family: "nanum-Gothic", sans-serif;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #7697a0;
+    min-height: 100px;
+    padding-top: 20px;
+
+}
+
+.footer-text {
+    color: white;
+}
+
+
+
+
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-nav:hover {
+
+    color: #8f8f8f;
+}
+
+.footer-nav a:hover {
+    color: #8f8f8f;
+}
+
+
+.introVideo {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.classes-page {
+    color: #f9cf92;
+
+}
+
+.classes-page:hover {
+    color: #a57474;
+    text-decoration: none;
+}
+
+
+
+/*-------------------------index.html*/
+
+.homePagePara {
+    text-align: center;
+    font-family: century gothic, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #808080;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 30px;
+}
+
+.introPara{
+        margin-top: 100%;
+        text-align: center;
+    }
+    
+
+
+/*-------------------------------get in touch*/
+
+.contact-form {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    width: 98%;
+}
+
+/*-------------------------------team*/
+
+.teamPic {
+    border-radius: 50%;
+    border: 10px solid #d9c8ca;
+    text-align: center;
+
+}
+
+.bioName {
+    font-family: century gothic, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #808080;
+
+
+}
+
+.bioPara {
+
+    font-family: century gothic, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #808080;
+}
+
+
+
+
+.katie {
+    border: 10px solid #f9cf92;
+}
+
+.bioPic {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bioPic:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*-----------------------------------------classes*/
+
+.classesText {
+    font-family: century gothic, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #808080;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------@media*/
+
+@media (min-width:576px) {
+
+    .homePagePara {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+        font-weight: 100;
+        width: 90%;
+    }
+    .introVideo {
+        width: 90%;
+        margin-left: 5%
+    }
+
+    .container-map {
+        display: none
+    }
+    .introPara{
+        margin-top: 67%;
+    }
+    
+
+}
+
+
+@media (max-width:576px) {
+
+   
+    .titleImage{
+        height:250px;
+        width:100%;
+        
+        
+    }
+    #home{
+        font-weight: 100;
+    }
+    
+
+    
+
+}
+
+
+@media (min-width:768px) {
+
+    .homePagePara {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+        width: 90%;
+        text-align: left;
+
+
+    }
+
+    .introVideo {
+        width: 60%;
+        margin-left: 20%
+    }
+
+    .contact-form {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 20px;
+        width: 70%;
+
+    }
+    #home{
+        margin-top: 125px;
+    }
+    .introPara{
+        margin-top: 70%;
+    }
+
+}
+
+
+
+@media (min-width:992px) {
+    .meet-the-team {
+        text-align: left;
+    }
+    #home{
+        margin-top: 175px;
+    }
+}
+
+@media (max-width:992px) {
+    .free-wheelin-title {
+        display: none;
+    }
+}

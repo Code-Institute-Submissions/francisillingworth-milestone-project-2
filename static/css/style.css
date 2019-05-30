@@ -176,7 +176,7 @@ h5 {
 
 footer {
     margin-top: 40px;
-    background-color: #7697a0;
+    background-color: #af775c;
     min-height: 100px;
     padding-top: 20px;
 
@@ -329,8 +329,65 @@ button:focus {
     outline: 1px dotted;
     /* outline: 5px auto -webkit-focus-ring-color; */
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+    
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-primary{
+    min-width: 100px;
+}
 
 
+.stream4{
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 0;
+    background-color:#ffd0d0;
+    
+}
+
+.jewelleryQuarter{
+    text-align: left;
+}
+
+
+
+.stream5{
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: 0;
+    background-color: #e09797;
+}
+
+.cityCentre{
+    text-align: center;
+}
+
+.stream6{
+    border-style: solid;
+    border-color: black;
+    background-color: #d68c99;
+}
+
+.dig{
+    text-align: right;
+}
+
+
+.food{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 

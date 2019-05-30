@@ -257,9 +257,64 @@ footer {
     
 }
 
+.loactionName{
+    text-align: center;
+}
+
+.jqImage{
+    width:100%;
+    position: relative;
+}
+
+.ccImage{
+    width:100%;
+}
+
+.digbethImage{
+    width:100%;
+}
+
+.card{
+    border-width: 0;
+    
+}
+
+.bottom_button{
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:rgba(129, 187, 201,.85);
+	text-align: center;
+	padding: 1em .75em;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.card_bottom{
+	display: flex;
+	flex-flow:column;
+}
+.card_head{
+	flex:0;
+}
+.card_para{
+	flex:1 0 auto;
+	display: none;
+}
 
 
 
+.card{
+	flex:1; /* */
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow:column;	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff0;}
 
 
 
@@ -289,8 +344,10 @@ footer {
         margin-top: 67%;
     }
     
-
 }
+
+
+
 
 
 @media (max-width:576px) {
@@ -352,6 +409,18 @@ footer {
     
     font-size: 1.2em; 
 }
+.jqImage{
+    max-height: 200px;
+}
+
+.ccImage{
+    max-height: 200px;
+}
+
+.digbethImage{
+    max-height: 200px;
+}
+
 
 
 }
@@ -365,6 +434,17 @@ footer {
     #home{
         margin-top: 175px;
     }
+    .jqImage{
+    max-height: 600px;
+}
+
+.ccImage{
+    max-height: 600px;
+}
+
+.digbethImage{
+    max-height: 450px;
+}
 }
 
 @media (max-width:992px) {

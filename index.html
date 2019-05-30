@@ -74,8 +74,26 @@
         <div class="row row-table">
             <div class="col-12 bg-color-conferences section-column">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="section-heading uppercase">Birmingham</h3>
+                    <div class="card stream1 col-sm-12 col-md-4">
+                        <img class="card_image jqImage" src="https://filmbirmingham.co.uk/wp-content/uploads/2018/07/Gas-Steet-1.jpg" alt="Jewellery Quarter">
+                        <div class="card_bottom">
+                            <h3 class="card_head loactionName">Jewellery Quarter</h3>
+                            <p class="card_para" id="par1">The Jewellery Quarter is famous of course for its jewellery (in fact 1/2 of all jewellery sold in the UK is made here), but also for its redbrick warehouses and chilled out eateries and bars. Where better to enjoy a drink after a day of sight seeing than in the sun on one of the many rooftop terraces watching the world go by below.</p>
+                            <button class="bottom_button" id="button_effects1">Button</button>
+                        </div>
+                    </div>
+                    <div class="card stream3 col-sm-12 col-md-4">
+                        <img class="card_image ccImage" src="https://www.cv-library.co.uk/career-advice/wp-content/uploads/2016/04/Birmingham-e1481904740667.jpg" alt="City Centre">
+                        <h3 class="card_head loactionName">City Centre</h3>
+                        <p class="card_para" id="par2">The shopping hub of central UK. Birminghams famous Bullring shopping centre mixes high fashion with metropolitan living. Meanwhile within a stones throw are multiple Michellin Starred restaurants and more bars than a short stay would allow you to explore.  </p>
+                        <button class="bottom_button" id="button_effects2">Button</button>
+                    </div>
+
+                    <div class="card stream2 col-sm-12 col-md-4">
+                        <img class="card_image digbethImage" src="http://www.ruthmillington.co.uk/wp-content/uploads/2017/11/DN5RZPFW0AAoYRY.jpg" alt="Digbeth">
+                        <h3 class="card_head loactionName">Digbeth</h3>
+                        <p class="card_para" id="par3">Having carried the tag of 'Up and coming' for many years Digbeth has recently been voted best place to live in the UK. Once the industrial heartbeat of Birmingham Digbeth is now better Known for its thriving art scene. Here you can admire the grafitti art while traversing the many bars, micro-breweries and street food outlets now inhabiting the old warehouse spaces. </p>
+                        <button class="bottom_button" id="button_effects3">Button</button>
                     </div>
                 </div>
                 <div id="map"></div>
@@ -110,13 +128,13 @@
 
 
     <h1 id="contactUs">Contact Us</h1>
-    <p class="homePagePara">If you have and questions, be it where to eat/drink , shop or visit please dont hesitate to use the form below to email us.</p>
-    <form onsubmit="return sendMail(this);" method="POST"class="contact-form">
+    <p class="homePagePara">If you have and questions, be it where to eat/drink , shop or visit please dont hesitate to use the form below to email us and one of our local experts will be in touch shortly</p>
+    <form onsubmit="return sendMail(this);" method="POST" class="contact-form">
         <div class="form-group">
             <label for="fullName">Full Name (required)</label>
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
             <label for="InputEmail">Email address  (required)</label>
-            <input type="email" class="form-control" name="email" id="emailaddress"  placeholder="Enter email" required>
+            <input type="email" class="form-control" name="email" id="emailaddress" placeholder="Enter email" required>
             <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
         </div>
         <div>
@@ -128,7 +146,7 @@
     </form>
 
 
-    <footer  class="container-fluid">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <h5 class="uppercase general-sub"><strong>Where we are</strong></h5>
@@ -163,7 +181,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="assets/js/script.js"></script>
 
 
 

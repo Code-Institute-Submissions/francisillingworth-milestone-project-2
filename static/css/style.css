@@ -97,7 +97,7 @@ btn-group-sm>.btn,
 .nav-link {
     text-align: right;
     font-weight: 800;
-    font-size: 1.2em; 
+   
 }
 
 
@@ -237,7 +237,7 @@ footer {
 }
 
 .introPara{
-        margin-top: 100%;
+        margin-top: 300px;
         text-align: center;
     }
     
@@ -338,10 +338,6 @@ footer {
     }
     #home{
         margin-top: 125px;
-       
-    }
-    
-        
     }
     .introPara{
         margin-top: 70%;
@@ -351,6 +347,10 @@ footer {
     width:70%;
     margin-left: 15%;
     
+}
+.nav-link {
+    
+    font-size: 1.2em; 
 }
 
 

@@ -198,11 +198,11 @@ footer {
 
 .footer-nav:hover {
 
-    color: #8f8f8f;
+    color: black;
 }
 
 .footer-nav a:hover {
-    color: #8f8f8f;
+    color: black;
 }
 
 
@@ -219,6 +219,10 @@ footer {
 .classes-page:hover {
     color: #a57474;
     text-decoration: none;
+}
+
+.bottom-nav{
+    color: white;
 }
 
 

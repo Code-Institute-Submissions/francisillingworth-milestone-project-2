@@ -400,10 +400,12 @@ button:focus {
 
 .websiteLinks{
     color: rgba(12, 12, 12, 0.53);
+    font-size: 0.8em;
 }
 
 .websiteLinks:hover{
     color: black;
+    font-size: 0.8em;
     
 }
 
@@ -446,6 +448,10 @@ button:focus {
     #home{
         font-weight: 100;
     }
+    
+    .digbeth{
+    text-align: left;
+}
     
 
     

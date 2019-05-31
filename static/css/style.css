@@ -176,7 +176,7 @@ h5 {
 
 footer {
     margin-top: 40px;
-    background-color: #af775c;
+    background-color: #e99065;
     min-height: 100px;
     padding-top: 20px;
 
@@ -356,7 +356,7 @@ button:focus {
     border-style: solid;
     border-color: black;
     border-bottom-width: 0;
-    background-color:#ffd0d0;
+    background-color:#da4a091f;
     
 }
 
@@ -370,7 +370,7 @@ button:focus {
     border-style: solid;
     border-color: black;
     border-bottom-width: 0;
-    background-color: #e09797;
+    background-color: #da4a0959;
 }
 
 .cityCentre{
@@ -380,7 +380,7 @@ button:focus {
 .stream6{
     border-style: solid;
     border-color: black;
-    background-color: #d68c99;
+    background-color: #da4a0999;
 }
 
 .dig{
@@ -393,7 +393,19 @@ button:focus {
     padding-bottom: 20px;
 }
 
+.card_links{
+    color:black;
+    font-weight: 600;
+}
 
+.websiteLinks{
+    color: rgba(12, 12, 12, 0.53);
+}
+
+.websiteLinks:hover{
+    color: black;
+    
+}
 
 /*-------------------------------@media*/
 
@@ -500,6 +512,10 @@ button:focus {
     text-align: right;
 }
 
+.info{
+    margin-left: 1.5%;
+    width:97%;
+}
 
 
 

@@ -43,13 +43,7 @@ $('.SeeMore2').click(function(){
     }
 });
 
-/* change emailn submit button text*/
-$(document).ready(function() {
-    $(".btn").click(function(){
-        $('.btn').text('Sent!');
-        
-  });
-})
+
 /*toggle page title on -off with burger nav*/
 $(document).ready(function() {
     $(".navbar-toggler").click(function(){

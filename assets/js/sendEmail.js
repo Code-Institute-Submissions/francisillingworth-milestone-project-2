@@ -12,3 +12,12 @@ function sendMail (contactForm){
             console.log("failed", error)
         });
 }
+
+
+/* change emailn submit button text*/
+$(document).ready(function() {
+    $(".btn").click(function(){
+        $('.btn').text('Sent!');
+        
+  });
+})

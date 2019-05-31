@@ -8,7 +8,7 @@ on the course.
 ## Demo
 
 A live demo of the website can be found [here](https://francisillingworth.github.io/milestone-project-2/index.html)\
-[<img src="assets/images/readme-screenshot.png">](https://francisillingworth.github.io/milestone-project-2/index.html)
+[<img src="assets/images/screenshot.png">](https://francisillingworth.github.io/milestone-project-2/index.html)
 
 ## UX
 

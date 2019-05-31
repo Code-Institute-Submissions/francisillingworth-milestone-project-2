@@ -29,18 +29,18 @@ taught in interactive frontend development.
 
 1)HTML5  
 2)CSS3  
-3)Bootstrap v.4.3.1
-4)Javascript
-5)Jquery
+3)Bootstrap v.4.3.1  
+4)Javascript  
+5)Jquery  
 
 ## Features
 
 The site features:
 1) The bootstrap grid system layout.
 2) A burger icon nav link that is responsive with the page nav bar so neither ever appear at the same time.
-3) googleMapsJS- with marker clusters showing the location of all places mentioned on the website
+3) googleMapsJS API- with marker clusters showing the location of all places mentioned on the website
 4) Embedded responsive pictures and videos.
-5) emailJS which is linked to the contact form.
+5) EmailJS API which is linked to the contact form.
 
 ### Features left to implement
 

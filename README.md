@@ -2,7 +2,7 @@
 
 ## Stream 2 Mileston Project - Interactive Frontend Development - Code Institute
 
-This is a website called Visit Brum. It is a travel website designed to show the best places to visit/stay/eat/drink in birmingham uising the many tools and skills I have picked up so far 
+This is a website called Visit Brum. It is a travel website designed to show the best places to visit/stay/eat/drink in Birmingham using the many tools and skills I have picked up so far 
 on the course.
 
 ## Demo
@@ -14,7 +14,7 @@ A live demo of the website can be found [here](https://francisillingworth.github
 
 The goal of my design was to create a welcoming website hightlighting the offerings Birmingham has to offer anyone coming to visit.
 Visually the website is kept a simple and tidy as possible with the objective of not overloading the visitor with information. I did this by splitting Birmingham into 3 distinct major geographical 
-areas. By doing this I havemade the website approachable and not intimidating.
+areas. By doing this I have made the website approachable and not intimidating.
 
 The website is designed to be as useful as possible without overloading the customer with information. There are clear links throughout the page to help the user navigate easily and intuitavely while 
 also providing clear links to outside resources should the website user require further info e.g clear website links next to the name of each institiution listed on the website.
@@ -45,7 +45,7 @@ The site features:
 ### Features left to implement
 
 There are a few features that I would like to implement further down the line. 
-1) A picture carousel on index.html and a gallery page containing additional photos of birmingham.
+1) A picture carousel on index.html and a gallery page containing additional photos of Birmingham.
 2) An proper booking platform for all of the hotels/bars/restaurants etc.
 3) I would like to include automated emails to the sender once the form has been submitted acknowledging receipt of email.
 
